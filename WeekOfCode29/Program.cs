@@ -10,8 +10,14 @@ namespace WeekOfCode29
     {
         static void Main(string[] args)
         {
-            ExecDay1();
+            //ExecDay1();
+            ExecDay2();
             Console.Read();
+        }
+
+        private static void ExecDay2()
+        {
+            new Day2.Solution();
         }
 
         private static void ExecDay1()
